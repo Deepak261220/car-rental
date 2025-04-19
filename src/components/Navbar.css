@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.btn-outline-dark {
+  border: 2px solid black;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-outline-dark:hover {
+  background-color: black;
+  color: white;
+}
+
+.top-hover:hover {
+  color: black !important;
+}
+
+.card-hover {
+  transition: background-color 0.3s ease;
+}
+.card-hover:hover {
+  background-color: #c78b2d;
+  color: white;
+}
